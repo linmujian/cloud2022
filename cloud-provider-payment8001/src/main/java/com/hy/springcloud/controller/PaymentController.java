@@ -34,6 +34,8 @@ public class PaymentController {
         Payment payment = paymentService.getPaymentById(id);
         log.info("******查询的结果："+payment);
         log.info("******查询的结果："+payment);
+        log.info("******查询的结果："+payment);
+        log.info("******查询的结果："+payment);
         if (payment!=null){
             return new CommonResult(200,"查询数据成功",payment);
         }else{
